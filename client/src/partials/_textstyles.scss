@@ -1,32 +1,31 @@
 // Mobile - _m
+// Tablet - _t
 // Desktop and Tablet - _dt
 
 // ! Header - H1
-$h1_text_size_m: 40px;
-$h1_line_height_m: 36px;
-$h1_text_size_dt: 42px;
-$h1_line_height_dt: 44px;
+$h1_text_size_m: 2.5rem;
+$h1_line_height_m: 3.2rem;
+$h1_text_size_t: 3.3rem;
+$h1_line_height_t: 2.8rem;
+$h1_text_size_dt: 4rem;
+$h1_line_height_dt: 2.5rem;
 
 // ! Subheader - H2
-$h2_text_size_m: 22px;
-$h2_line_height_m: 28px;
-$h2_text_size_dt: 24px;
-$h2_line_height_dt: 32px;
+$h2_text_size_m: 2.2rem;
+$h2_line_height_m: 2.8rem;
 
 // ! Paragraph - H3
-$h3_text_size_m: 16px;
-$h3_line_height_m: 22px;
-$h3_text_size_dt: 18px;
-$h3_line_height_dt: 24px;
+$h3_text_size_m: 1.8rem;
+$h3_line_height_m: 2.3rem;
 
 // ! Lists & contact information - H4
-$h4_text_size_m: 13px;
-$h4_line_height_m: 18px;
-$h4_text_size_dt: 15px;
-$h4_line_height_dt: 22px;
+$h4_text_size_m: 1.3rem;
+$h4_line_height_m: 1.8rem;
 
 // ! Labels - H5
-$h5_text_size_m: 11px;
-$h5_line_height_m: 20px;
-$h5_text_size_dt: 12px;
-$h5_line_height_dt: 20px;
+$h5_text_size_m: 0.8rem;
+$h5_line_height_m: 1.2rem;
+$h5_text_size_t: 0.9rem;
+$h5_line_height_t: 1.5rem;
+$h5_text_size_dt: 1rem;
+$h5_line_height_dt: 1.6rem;

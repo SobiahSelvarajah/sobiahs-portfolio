@@ -1,0 +1,71 @@
+@use './partials/breakpoints' as *;
+@use './partials/colours' as *;
+@use './partials/textstyles' as *;
+
+// general styling
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+    line-height: 1.5;
+    background-color: $alice_blue;
+    color: $pewter_blue;
+}
+
+h1 {
+    font-size: $h1_text_size_m;
+    line-height: $h1_line_height_m;
+    color: $pewter_blue;
+    @include tablet {
+        font-size: $h1_text_size_t;
+        line-height: $h1_line_height_t;
+    }
+    @include desktop {
+        font-size: $h1_text_size_dt;
+        line-height: $h1_line_height_dt;
+    }
+}
+h2 {
+    font-size: $h2_text_size_m;
+    line-height: $h2_line_height_m;
+}
+h3 {
+    font-size: $h3_text_size_m;
+    line-height: $h3_line_height_m;
+}
+h4 {
+    font-size: $h4_text_size_m;
+    line-height: $h4_line_height_m;
+    color: $deep_sea;
+}
+h5 {
+    font-size: $h5_text_size_m;
+    line-height: $h5_line_height_m;
+    color: $slate_gray;
+    @include tablet {
+        font-size: $h5_text_size_t;
+        line-height: $h5_line_height_t;
+    }
+    @include desktop {
+        font-size: $h5_text_size_dt;
+        line-height: $h5_line_height_dt;
+    }
+}
+
+a {
+    color: $pewter_blue;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}

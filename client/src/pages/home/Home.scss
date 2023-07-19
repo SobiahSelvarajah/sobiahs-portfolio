@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+
+.home {
+    &__container {
+        padding: 30px;
+        @include tablet {
+            padding: 20px 50px 0 50px;
+        }
+        @include desktop {
+            padding: 45px;
+        }
+    }
+}

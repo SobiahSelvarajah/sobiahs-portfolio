@@ -1,0 +1,24 @@
+@use '../../partials/breakpoints' as *;
+
+.homeTextLeft {
+    &__container {
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        @include tablet {
+            height: 30rem;
+        }
+    }
+    &__name,
+    &__description {
+        padding-bottom: 20px;
+        @include tablet {
+            padding-bottom: 30px;
+        }
+        @include desktop {
+            padding-bottom: 35px;
+        }
+    }
+}

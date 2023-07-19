@@ -1,4 +1,5 @@
 import React from 'react'
+import IconSocials from '../iconSocials/IconSocials'
 import './HomeTextLeft.scss'
 
 const HomeTextLeft = () => {
@@ -10,6 +11,7 @@ const HomeTextLeft = () => {
         <h5 className="homeTextLeft__description">
             Full Stack Developer
         </h5>
+        <IconSocials/>
     </section>
   )
 }

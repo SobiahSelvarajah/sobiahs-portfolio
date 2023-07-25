@@ -8,6 +8,9 @@
         justify-content: center;
         align-items: flex-start;
         @include tablet {
+            height: 25rem;
+        }
+        @include desktop {
             height: 30rem;
         }
     }

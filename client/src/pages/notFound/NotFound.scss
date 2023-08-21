@@ -1,0 +1,35 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/colours' as *;
+@use '../../partials/textstyles' as *;
+
+.notFound {
+    &__container {
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(251,247,244);
+        background: linear-gradient(0deg, rgba(251,247,244,1) 17%, rgba(143,173,188,1) 50%, rgba(66,114,138,1) 100%);
+        color: $alice_blue;
+        height: 90dvh;
+        @include tablet {
+            padding-top: 8rem;
+        }
+    }
+    &__heading {
+        margin-top: 1.5rem;
+    }
+    &__text {
+        color: $alice_blue;
+        margin: 3rem 0 1.5rem 0;
+        @include tablet {
+            margin: 5rem 0 2rem 0;
+        }
+    }
+    &__homepage {
+        padding: 1.1rem;
+        background-color: $deep_sea;
+        color: $alice_blue;
+        border-radius: 1rem;
+    }
+}

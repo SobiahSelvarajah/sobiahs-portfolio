@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import BgWaves from './components/bgWaves/BgWaves'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
@@ -16,7 +16,8 @@ const App = () => {
             <Route path='about' element={<About/>}/>
             <Route path='projects' element={<Projects/>}/>
             <Route path='contact' element={<Contact/>}/>
-            <Route path='*' element={<NotFound/>}/>    
+            <Route path="/404" element={<NotFound/>}/>
+          	<Route path="*" element={<Navigate to="/404"/>}/>
         </Routes>
     </BrowserRouter>
   )

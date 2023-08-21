@@ -1,6 +1,7 @@
 @use './partials/breakpoints' as *;
 @use './partials/colours' as *;
 @use './partials/textstyles' as *;
+@use './partials/typeface' as *;
 
 // general styling
 *, *::before, *::after {
@@ -21,6 +22,7 @@ body {
 }
 
 h1 {
+    font-family: 'Quicksand Light';    
     font-size: $h1_text_size_m;
     line-height: $h1_line_height_m;
     color: $pewter_blue;
@@ -34,19 +36,23 @@ h1 {
     }
 }
 h2 {
+    font-family: 'Quicksand Regular';
     font-size: $h2_text_size_m;
     line-height: $h2_line_height_m;
 }
 h3 {
+    font-family: 'Quicksand Medium';
     font-size: $h3_text_size_m;
     line-height: $h3_line_height_m;
 }
 h4 {
+    font-family: 'Quicksand SemiBold';
     font-size: $h4_text_size_m;
     line-height: $h4_line_height_m;
     color: $deep_sea;
 }
 h5 {
+    font-family: 'Quicksand Bold';
     font-size: $h5_text_size_m;
     line-height: $h5_line_height_m;
     color: $slate_gray;

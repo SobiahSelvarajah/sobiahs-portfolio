@@ -1,0 +1,9 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/colours' as *;
+@use '../../partials/textstyles' as *;
+
+.contactHeading {
+    &__heading {
+        padding: 7rem 4rem;
+    }
+}

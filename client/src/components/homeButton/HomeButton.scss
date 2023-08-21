@@ -1,0 +1,12 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/colours' as *;
+@use '../../partials/textstyles' as *;
+
+.homeButton {
+    &__button {
+        padding: 1.1rem;
+        background-color: $deep_sea;
+        color: $alice_blue;
+        border-radius: 1rem;
+    }
+}

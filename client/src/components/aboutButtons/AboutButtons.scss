@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/colours' as *;
+@use '../../partials/textstyles' as *;
+
+.aboutButtons {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 1rem 0;
+        width: 10rem;
+    }
+}

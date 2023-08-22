@@ -1,9 +1,8 @@
 import React from 'react'
 import AboutHeading from '../../components/aboutHeading/AboutHeading'
 import AboutPic from '../../components/aboutPic/AboutPic'
+import AboutButtons from '../../components/aboutButtons/AboutButtons'
 import './About.scss'
-import ContactButton from '../../components/contactButton/ContactButton'
-import ResumeButton from '../../components/resumeButton/ResumeButton'
 
 const About = () => {
   return (
@@ -11,8 +10,7 @@ const About = () => {
       <AboutHeading/>
       <div className="about__content">
         <AboutPic/>
-        <ContactButton/>
-        <ResumeButton/>
+        <AboutButtons/>
       </div>
     </section>
   )

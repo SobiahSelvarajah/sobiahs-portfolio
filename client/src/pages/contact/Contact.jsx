@@ -4,7 +4,9 @@ import './Contact.scss'
 
 const Contact = () => {
   return (
-    <ContactHeading/>
+    <section className="contact__container">
+      <ContactHeading/>
+    </section>
   )
 }
 

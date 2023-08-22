@@ -4,7 +4,9 @@ import './Projects.scss'
 
 const Projects = () => {
   return (
-    <ProjectsHeading/>
+    <section className="projects__container">
+      <ProjectsHeading/>
+    </section>
   )
 }
 

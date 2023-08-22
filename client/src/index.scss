@@ -13,14 +13,12 @@
     text-decoration: none;
     list-style: none;
 }
-
 body {
     overflow: hidden;
     line-height: 1.5;
     background-color: $alice_blue;
     color: $pewter_blue;
 }
-
 h1 {
     font-family: 'Quicksand Light';    
     font-size: $h1_text_size_m;
@@ -65,13 +63,20 @@ h5 {
         line-height: $h5_line_height_dt;
     }
 }
-
 a {
     color: $pewter_blue;
 }
-
 img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+button {
+    color: $alice_blue;
+    background-color: $deep_sea;
+    font-family: 'Quicksand Bold';
+    font-size: $h5_text_size_m;
+    line-height: $h5_line_height_m;
+    padding: 0.7rem;
+    border-radius: 1rem;
 }

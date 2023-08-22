@@ -1,0 +1,12 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/colours' as *;
+@use '../../partials/textstyles' as *;
+
+.aboutHeading {
+    &__heading {
+        padding: 3rem 2rem;
+        @include desktop {
+            padding: 7rem 4rem;
+        }
+    }
+}

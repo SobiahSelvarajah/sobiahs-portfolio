@@ -4,9 +4,9 @@
 
 .aboutHeading {
     &__heading {
-        padding: 3rem 2rem;
+        padding: 1.5rem 1rem;
         @include desktop {
-            padding: 7rem 4rem;
+            padding: 3.5rem 2rem;
         }
     }
 }

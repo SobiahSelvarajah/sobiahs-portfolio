@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+
+.aboutAside {
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+        @include tablet {
+            flex-direction: column;
+        }
+    }
+}

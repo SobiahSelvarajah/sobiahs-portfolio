@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutHeading from '../../components/aboutHeading/AboutHeading'
-import AboutPic from '../../components/aboutPic/AboutPic'
-import AboutButtons from '../../components/aboutButtons/AboutButtons'
+import AboutAside from '../../components/aboutAside/AboutAside'
 import './About.scss'
 
 const About = () => {
@@ -9,8 +8,7 @@ const About = () => {
     <section className="about__container">
       <AboutHeading/>
       <div className="about__content">
-        <AboutPic/>
-        <AboutButtons/>
+        <AboutAside/>
       </div>
     </section>
   )

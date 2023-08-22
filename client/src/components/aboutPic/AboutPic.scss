@@ -2,10 +2,10 @@
 
 .aboutPic {
     &__image {
-        width: 6rem;
+        width: 5rem;
         border-radius: 1rem;
         @include desktop {
-            width: 12rem;
+            width: 8rem;
         }
     }
 }

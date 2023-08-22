@@ -1,11 +1,2 @@
 @use '../../partials/breakpoints' as *;
 
-.about {
-    &__content {
-        display: flex;
-        flex-direction: row;
-        @include desktop {
-            flex-direction: column;
-        }
-    }
-}

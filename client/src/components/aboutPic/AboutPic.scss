@@ -1,0 +1,11 @@
+@use '../../partials/breakpoints' as *;
+
+.aboutPic {
+    &__image {
+        width: 6rem;
+        border-radius: 1rem;
+        @include desktop {
+            width: 12rem;
+        }
+    }
+}

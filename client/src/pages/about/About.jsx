@@ -2,6 +2,7 @@ import React from 'react'
 import AboutHeading from '../../components/aboutHeading/AboutHeading'
 import AboutPic from '../../components/aboutPic/AboutPic'
 import './About.scss'
+import ContactButton from '../../components/contactButton/ContactButton'
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
       <AboutHeading/>
       <div className="about__content">
         <AboutPic/>
+        <ContactButton/>
       </div>
     </section>
   )
